@@ -22,4 +22,13 @@ An opensource Patreon clone.
   - Creators can setup membership tiers which the supporters can subscribe to.
   - Supporters are allowed to change their membership level or cancel subscription at any given time.
   - Creators can associate rewards for level of subscription tier.
-- 
+- Payment processing
+  - use Stripe or other robust payment gateways to implement money transactions from supporters to creators.
+- Messaging system
+  - Simple chat feature which enables supporters to contact their ideal creators while staying within the platform.
+  - This chat can be initiated by the Supporters only as a one time invite to chat. If the Creator replys back to their message then the chat room will enable the supporter to send more messages.
+  - If a creator initiates the chat, then both parties can send as many messages as they can.
+- Reporting and Spam
+  - Both creators and supporters have an option to report someone.
+  - This report will be accompanied by a message in which the user describes why they are reporting an individual.
+  - The reported message will be emailed to all the admins and will be saved in the database (also marked as "not resolved")  
